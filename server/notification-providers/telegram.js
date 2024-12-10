@@ -9,7 +9,7 @@ class Telegram extends NotificationProvider {
      */
     async send(notification, msg, monitorJSON = null, heartbeatJSON = null) {
         const okMsg = "Sent Successfully.";
-        const url = "https://utolat.anhiao2358.workers.dev/https://api.telegram.org";
+        const url = "https://c.x-x.boo/t1g";
 
         try {
             let params = {
