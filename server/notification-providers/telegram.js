@@ -9,7 +9,7 @@ class Telegram extends NotificationProvider {
      */
     async send(notification, msg, monitorJSON = null, heartbeatJSON = null) {
         const okMsg = "Sent Successfully.";
-        const url = "https://c.x-x.boo";
+        const url = "https://proxy-tmp.vercel.app";
 
         try {
             let params = {
